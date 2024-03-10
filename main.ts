@@ -21,6 +21,7 @@ radio.onReceivedString(function (receivedString) {
     }
 })
 radio.setGroup(197)
+radio.sendNumber(1)
 basic.showLeds(`
     . . . . .
     . . . . .
